@@ -1,0 +1,15 @@
+ble_recv
+Receive files over BLE on M5Stack Cardputer ADV (MicroHydra).
+Companion of ble_send and the Android app Cardputer BLE Blocks.
+Install
+Copy the `ble_recv` folder to `/apps/` on the device:
+```
+/apps/ble_recv/__init__.py
+/apps/ble_recv/icon.raw
+```
+Usage
+Run ble_recv — device advertises as `Cardputer-ADV`.
+Connect from the Android app or from another Cardputer running `ble_send` (mode 2).
+When transfer finishes you can edit the filename or accept the suggested one.
+Quit with `ESC`, ``` or `G0`.
+See the main project README for the full protocol and the Android app.
